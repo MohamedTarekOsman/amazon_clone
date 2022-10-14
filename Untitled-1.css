@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial;
+
+}
+body{
+
+   background-color: rgb(182, 248, 248);
+}
+.logo:hover{
+ border: 1px solid white;
+ cursor: pointer;
+}
+.l{
+    margin: 5px;
+   
+
+}
+.a{
+    display: flex;
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+}
+.w{
+    color: gray;
+}
+.t{
+    display: flex;
+    margin: 5px;
+}
+.t:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.e{
+    font-weight: bold;
+    color: white;
+}
+.icon{
+    margin-right: 5px;
+    margin-top: 20px;
+    color: white;
+}
+.button
+{
+    display: flex;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 9px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(238, 232, 232);
+    margin-left: 5px;
+    margin-top: 10px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    z-index: 1;
+    
+}
+.input{
+    width: 650px;
+    height: 40px;
+    margin-top: 10px;
+    z-index: 0;
+}
+.search{
+    display: flex;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 9px;
+    width: 40px;
+    height: 40px;
+    background-color:peru ;
+    margin-top: 10px;
+    margin-left: -40px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    z-index: 1;
+}
+.zz{
+    height: 50px;
+   display: flex;
+   margin-left: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   padding: 10px;
+}
+.zz:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.lang{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.language{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.two{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.account{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.icon2{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.two:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.ico2{
+    margin-left: 10px;
+}
+.three{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.cart{
+  margin-top: 15px;
+}
+.three:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.b{
+    display: flex;
+    background-color: #232f3e;
+    width: 100%;
+    height: 40px;
+   
+}
+.p{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 7px;
+    
+}
+.menu{
+    margin-top: 3px;
+}
+.all{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.all:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.k{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.k:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.v{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-left: 700px;
+    margin-bottom: 3px;
+}
+.v:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.dropdown{
+    max-width: 90px;
+    width: auto;
+    background-color: rgb(238, 232, 232);
+    border-color:rgb(238, 232, 232);
+    outline-color: initial;
+    border-width: 0px;
+    cursor: pointer;
+}
+.row{
+    background-image: url("image/wallpaperflare.com_wallpaper\ \(4\).jpg");
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+
+.col-md-4{
+    border: none;
+    background-color: white;
+    margin: 5px;
+}.lin {
+    color: rgb(3, 1, 1);
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+}
+.father{
+    margin-top: 50px;
+    z-index: 1;
+}
+.big_footer {
+    margin:  3% 10%;
+    padding: 3%;
+}
+h3 {
+    color: white;
+}
+a {
+    color:  #bfb2b2;
+    text-decoration-line: none;
+}
+div.mohamed {
+    margin: 3%;
+    padding: 2%;
+    display: inline-block;
+}
+div.ahmed {
+    margin: 3%;
+    padding: 2%;
+    display: inline-block;
+}
+div.soliman {
+    margin: 3%;
+    padding: 2%;
+    display: inline-block;
+}
+div.abomera {
+    margin: 3%;
+    padding: 2%;
+    display: inline-block;
+}
+div.amazon {
+    display: inline-block;
+   padding: 30px;
+}
+div.select {
+    display: inline-block;  
+    border: 1px white solid;
+    padding: 5px;
+}
+div.egypt {
+    display: inline-block;
+    border: 1px white solid;
+    padding: 5px;
+}
+div.maha {
+    width: 50%;
+    margin: 30px;
+    margin: auto;
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+div.thth {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.qwe {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.mmm {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.rrr {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.ghgh {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.uiui {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.aqaq {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.jkjk {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.nmnm {
+    margin: 1%;
+    padding: 2%;
+    display: inline-block;
+}
+.conteaner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.contcct {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.small_footer {
+    background-color: rgb(42, 42, 46);
+}
+.c{
+    display: flex;
+    background-color: #989b9e;
+    width: 100%;
+    height: 30px;
+}
+.inpu{
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    z-index: 0;
+}
+.ro{
+    background-image: url("image/wallpaperflare.com_wallpaper\ \(4\).jpg");
+    justify-content: end;
+    top: 40px;
+    display: flex;
+}
+
+.col-md-4{
+    border: none;
+    background-color: white;
+    margin: 5px;
+}.lin {
+    color: rgb(3, 1, 1);
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 30px;
+}
+.father{
+    margin-top: 50px;
+    z-index: 1;
+}
+.jk:hover{
+    border-bottom:2px solid orange ;
+    color: orange;
+    cursor: pointer;
+}
+.jk{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+.sidenav {
+    height: 100%; 
+    width: 350px; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(255, 255, 255); 
+    overflow-x: hidden; 
+    display: none;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .ss{
+      display: flex;
+      margin: 10px;
+  }
+.ss:hover{
+    background-color: rgb(193, 188, 212);
+}
+.all:hover .sidenav {
+    display: block;
+}
